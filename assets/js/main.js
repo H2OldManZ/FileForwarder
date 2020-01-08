@@ -12,6 +12,6 @@ function getQueryVariable(variable)
 function followLink()
 {
 	var link = getQueryVariable("loc");
-	window.location.replace(link);
+	window.location.href = link;
 	return (false);
 }
