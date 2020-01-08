@@ -8,3 +8,10 @@ function getQueryVariable(variable)
        }
        return(false);
 }
+
+function followLink()
+{
+	var link = getQueryVariable("loc");
+	window.location.replace(link);
+	return (false);
+}
